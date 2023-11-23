@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+/**
+* CSS Stylesheet for our clock.
+*/
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #36454f; }
+
+.main {
+  margin-left: auto;
+  margin-right: auto; }
+
+.times {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1; }
+
+.times ul {
+  display: flex;
+  flex-direction: column-reverse; }
+
+.times ul li {
+  flex-grow: 1; }
+
+.buttons {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 1.0em; }
+
+.buttons button {
+  margin: 0.5em; }
+
+.digits {
+  margin-top: 1.0em; }
+
+.digitsText {
+  font-size: 7rem !important; }
+  @media screen and (max-width: 565px) {
+    .digitsText {
+      font-size: 4rem !important; } }
+  @media screen and (max-width: 360px) {
+    .digitsText {
+      font-size: 3rem !important; } }
